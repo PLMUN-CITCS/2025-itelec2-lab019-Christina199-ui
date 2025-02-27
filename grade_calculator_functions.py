@@ -22,7 +22,8 @@ def calculate_grade(score):
         return 'D'
     else:
         return 'F'
-        
-score = get_student_score()  # Get the student's score
-grade = calculate_grade(score)  # Calculate the grade
-print(f"Your Grade is: {grade}")  # Output the grade
+
+if __name__ == "__main__":        
+    score = get_student_score()  # Get the student's score
+    grade = calculate_grade(score)  # Calculate the grade
+    print(f"Your Grade is: {grade}")  # Output the grade
