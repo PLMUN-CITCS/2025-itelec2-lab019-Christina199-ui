@@ -9,7 +9,7 @@ def get_student_score() -> float:
             else:
                 print("Please enter a score between 0 and 100.")
         except ValueError:
-            print("Invalid input. Please enter a numerical value.")
+                print("Invalid input. Please enter a numerical value.")
 
 def calculate_grade(score: float) -> str:
     """Function to calculate the letter grade based on the student's score."""
