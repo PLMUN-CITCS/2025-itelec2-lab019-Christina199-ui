@@ -27,8 +27,8 @@ def calculate_grade(score: float) -> str:
 
 def main():
 
-    score = get_student_score()  # Get the student's score.
-    grade = calculate_grade(score)  # Calculate the grade based on the score.
+    student_score = get_student_score()  # Get the student's score.
+    grade = calculate_grade(grade_score)  # Calculate the grade based on the score.
     print(f"Your Grade is: {grade}")  # Output the grade.
     
 if __name__ == "__main__":
